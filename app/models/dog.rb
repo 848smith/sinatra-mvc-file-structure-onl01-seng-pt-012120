@@ -3,7 +3,9 @@ class Dog
   @@all = []
   
   def initialize(name, breed, age)
-    array.each {|key, value| self.send(("#{key}="), value)}
+    @name = name
+    @breed = breed
+    @age = age
   end
   
   def self.all
