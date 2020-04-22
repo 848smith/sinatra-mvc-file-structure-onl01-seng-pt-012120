@@ -2,7 +2,7 @@ class Dog
   attr_accessor :name, :breed, :age
   @@all = []
   
-  def initialization(name:, breed:, age:)
+  def initialization(name, breed, age)
     array.each {|key, value| self.send(("#{key}="), value)}
   end
   
