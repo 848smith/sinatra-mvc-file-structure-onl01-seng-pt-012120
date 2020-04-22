@@ -1,11 +1,11 @@
 class Dog
-  @all = []
+  @@all = []
   
   def initialization(name, breed, age)
     
   end
   
   def self.all
-    @all
+    @@all
   end
 end
